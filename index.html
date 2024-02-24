@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/three@0.120.0/build/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+</head>
+<body>
+
+    <div id="main">
+        <div id="nav">
+            <div id="left">
+                <img src="./assests/icon.png" alt="">
+            </div>
+            <div id="right">
+                <h3>Seraph</h3>
+                <h3>Lucifer</h3>
+                <h3>Horned</h3>
+                <h3>Diabolical</h3>
+            </div>
+            <div class="end">
+                <img src="./assests/hand.png" alt="">
+            </div>
+        </div>
+        <div id="titles">
+           <div class="first">
+            <h1>(Dancing with the Devil)</h1>
+            <h1>(Angelic Whispers)</h1>
+           </div>
+           <div class="second">
+            <h1><span>I</span>M<span>POSSIBLE</span></h1>
+           </div>
+            <div class="third">
+                <h1>(Eternal Struggle)</h1>
+            <h1>(Temptation Unleashed)</h1>
+            </div>
+        </div>
+        <div id="world"></div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
+
+    <model-viewer src="./assests/angel.glb" camera-controls autoplay loop muted></model-viewer>
+    </div>
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
